@@ -88,19 +88,53 @@ const Index = () => {
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-cosmic-accent/20 via-transparent to-transparent"></div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               {[
-                "Mercury", "Venus", "Earth", "Mars",
-                "Jupiter", "Saturn", "Uranus", "Neptune"
-              ].map((planet, index) => (
+                {
+                  name: "Mercury",
+                  image: "https://images.unsplash.com/photo-1614732414444-096e5f1122d5"
+                },
+                {
+                  name: "Venus",
+                  image: "https://images.unsplash.com/photo-1614314107768-6018061b5b72"
+                },
+                {
+                  name: "Earth",
+                  image: "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4"
+                },
+                {
+                  name: "Mars",
+                  image: "https://images.unsplash.com/photo-1614728894747-a83421789f10"
+                },
+                {
+                  name: "Jupiter",
+                  image: "https://images.unsplash.com/photo-1614732484003-ef9881555dc3"
+                },
+                {
+                  name: "Saturn",
+                  image: "https://images.unsplash.com/photo-1614314089729-1820ad40c84a"
+                },
+                {
+                  name: "Uranus",
+                  image: "https://images.unsplash.com/photo-1614313913007-2b4ae8ce32d6"
+                },
+                {
+                  name: "Neptune",
+                  image: "https://images.unsplash.com/photo-1614314107992-d074d1f00d05"
+                }
+              ].map((planet) => (
                 <div 
-                  key={planet}
-                  className="group relative overflow-hidden rounded-full aspect-square bg-cosmic-muted border border-white/10 hover:border-cosmic-accent transition-colors"
+                  key={planet.name}
+                  className="group relative overflow-hidden rounded-full aspect-square bg-cosmic-muted border border-white/10 hover:border-cosmic-accent transition-all hover:scale-105"
                 >
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <span className="text-lg font-medium opacity-0 group-hover:opacity-100 transition-opacity">
-                      {planet}
+                  <img 
+                    src={planet.image}
+                    alt={planet.name}
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-tr from-cosmic-accent/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                    <span className="text-lg font-medium bg-cosmic/80 px-4 py-2 rounded-full">
+                      {planet.name}
                     </span>
                   </div>
-                  <div className="absolute inset-0 bg-gradient-to-tr from-cosmic-accent/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 </div>
               ))}
             </div>
