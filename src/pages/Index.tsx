@@ -86,15 +86,15 @@ const Index = () => {
           </h2>
           <div className="relative">
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-cosmic-accent/20 via-transparent to-transparent"></div>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
               {[
                 {
                   name: "Mercury",
-                  image: "https://images.unsplash.com/photo-1614732414444-096e5f1122d5"
+                  image: "/src/assets/Mercury.jpg"
                 },
                 {
                   name: "Venus",
-                  image: "https://images.unsplash.com/photo-1614314107768-6018061b5b72"
+                  image: "/src/assets/Venus.jfif"
                 },
                 {
                   name: "Earth",
@@ -102,23 +102,27 @@ const Index = () => {
                 },
                 {
                   name: "Mars",
-                  image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb"
+                 image: "/src/assets/mars.jpg"
                 },
                 {
                   name: "Jupiter",
-                  image: "https://images.unsplash.com/photo-1614732484003-ef9881555dc3"
+                  image: "/src/assets/Jupiter2.webp"
                 },
                 {
                   name: "Saturn",
-                  image: "https://images.unsplash.com/photo-1501854140801-50d01698950b"
+                  image: "https://images.unsplash.com/photo-1614732414444-096e5f1122d5"
                 },
                 {
                   name: "Uranus",
-                  image: "https://images.unsplash.com/photo-1614313913007-2b4ae8ce32d6"
+                  image: "https://images.unsplash.com/photo-1614732484003-ef9881555dc3"
                 },
                 {
                   name: "Neptune",
-                  image: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb"
+                  image: "https://images.unsplash.com/photo-1614313913007-2b4ae8ce32d6"
+                },
+                {
+                  name: "Pluto",
+                  image: "/src/assets/Pluto.jfif"
                 }
               ].map((planet) => (
                 <div 
@@ -128,7 +132,7 @@ const Index = () => {
                   <img 
                     src={planet.image}
                     alt={planet.name}
-                    className="w-full h-full object-cover"
+                    className="w-[3/4] h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-tr from-cosmic-accent/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                     <span className="text-lg font-medium bg-cosmic/80 px-4 py-2 rounded-full">

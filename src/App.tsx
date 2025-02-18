@@ -3,6 +3,9 @@ import { Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Categories from "./pages/Categories";
 import Planets from "./pages/Planets";
+import Comets from "./pages/Comets";
+import Books from "./pages/Books";
+import Videos from "./pages/Videos";
 import Constellations from "./pages/Constellations";
 import Observatories from "./pages/Observatories";
 import Contact from "./pages/Contact";
@@ -16,6 +19,9 @@ function App() {
       <Route path="/planets" element={<Planets />} />
       <Route path="/constellations" element={<Constellations />} />
       <Route path="/observatories" element={<Observatories />} />
+      <Route path="/books" element={<Books />} />
+      <Route path="/videos" element={<Videos />} />
+      <Route path="/comets" element={<Comets />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
