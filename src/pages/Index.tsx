@@ -90,35 +90,35 @@ const Index = () => {
               {[
                 {
                   name: "Mercury",
-                  image: "https://science.nasa.gov/wp-content/uploads/2023/09/mercury.jpg"
+                  image: "https://images.unsplash.com/photo-1614732414444-096e5f1122d5"
                 },
                 {
                   name: "Venus",
-                  image: "https://science.nasa.gov/wp-content/uploads/2023/09/venus.jpg"
+                  image: "https://images.unsplash.com/photo-1614314107768-6018061b5b72"
                 },
                 {
                   name: "Earth",
-                  image: "https://science.nasa.gov/wp-content/uploads/2023/09/earth.jpg"
+                  image: "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4"
                 },
                 {
                   name: "Mars",
-                  image: "https://science.nasa.gov/wp-content/uploads/2023/09/mars.jpg"
+                  image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb"
                 },
                 {
                   name: "Jupiter",
-                  image: "https://science.nasa.gov/wp-content/uploads/2023/09/jupiter.jpg"
+                  image: "https://images.unsplash.com/photo-1614732484003-ef9881555dc3"
                 },
                 {
                   name: "Saturn",
-                  image: "https://science.nasa.gov/wp-content/uploads/2023/09/saturn.jpg"
+                  image: "https://images.unsplash.com/photo-1501854140801-50d01698950b"
                 },
                 {
                   name: "Uranus",
-                  image: "https://science.nasa.gov/wp-content/uploads/2023/09/uranus.jpg"
+                  image: "https://images.unsplash.com/photo-1614313913007-2b4ae8ce32d6"
                 },
                 {
                   name: "Neptune",
-                  image: "https://science.nasa.gov/wp-content/uploads/2023/09/neptune.jpg"
+                  image: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb"
                 }
               ].map((planet) => (
                 <div 
