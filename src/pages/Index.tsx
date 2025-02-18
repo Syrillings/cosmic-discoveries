@@ -102,7 +102,7 @@ const Index = () => {
                 },
                 {
                   name: "Mars",
-                  image: "https://images.unsplash.com/photo-1614728894747-a83421789f10"
+                  image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb"
                 },
                 {
                   name: "Jupiter",
@@ -110,7 +110,7 @@ const Index = () => {
                 },
                 {
                   name: "Saturn",
-                  image: "https://images.unsplash.com/photo-1614314089729-1820ad40c84a"
+                  image: "https://images.unsplash.com/photo-1501854140801-50d01698950b"
                 },
                 {
                   name: "Uranus",
@@ -118,7 +118,7 @@ const Index = () => {
                 },
                 {
                   name: "Neptune",
-                  image: "https://images.unsplash.com/photo-1614314107992-d074d1f00d05"
+                  image: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb"
                 }
               ].map((planet) => (
                 <div 
