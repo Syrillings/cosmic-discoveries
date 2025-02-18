@@ -90,35 +90,35 @@ const Index = () => {
               {[
                 {
                   name: "Mercury",
-                  image: "https://images.unsplash.com/photo-1614732414444-096e5f1122d5"
+                  image: "https://science.nasa.gov/wp-content/uploads/2023/09/mercury.jpg"
                 },
                 {
                   name: "Venus",
-                  image: "https://images.unsplash.com/photo-1614314107768-6018061b5b72"
+                  image: "https://science.nasa.gov/wp-content/uploads/2023/09/venus.jpg"
                 },
                 {
                   name: "Earth",
-                  image: "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4"
+                  image: "https://science.nasa.gov/wp-content/uploads/2023/09/earth.jpg"
                 },
                 {
                   name: "Mars",
-                  image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb"
+                  image: "https://science.nasa.gov/wp-content/uploads/2023/09/mars.jpg"
                 },
                 {
                   name: "Jupiter",
-                  image: "https://images.unsplash.com/photo-1614732484003-ef9881555dc3"
+                  image: "https://science.nasa.gov/wp-content/uploads/2023/09/jupiter.jpg"
                 },
                 {
                   name: "Saturn",
-                  image: "https://images.unsplash.com/photo-1501854140801-50d01698950b"
+                  image: "https://science.nasa.gov/wp-content/uploads/2023/09/saturn.jpg"
                 },
                 {
                   name: "Uranus",
-                  image: "https://images.unsplash.com/photo-1614313913007-2b4ae8ce32d6"
+                  image: "https://science.nasa.gov/wp-content/uploads/2023/09/uranus.jpg"
                 },
                 {
                   name: "Neptune",
-                  image: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb"
+                  image: "https://science.nasa.gov/wp-content/uploads/2023/09/neptune.jpg"
                 }
               ].map((planet) => (
                 <div 
