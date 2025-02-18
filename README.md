@@ -1,58 +1,10 @@
-# Welcome to your Lovable project
+## Cosmic Discoveries
 
-## Project info
-
-**URL**: https://lovable.dev/projects/90287f2f-a2ff-40e6-897d-0e8f6b71ae07
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/90287f2f-a2ff-40e6-897d-0e8f6b71ae07) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+This is an educational website that aims to familiarize people with the  astronomy and the wonders of the universe ranging from the mysteries the Earth harbors to the wonders beyond our atmosphere. Jin us on our interstellar oddysey.
 
 ## What technologies are used for this project?
 
-This project is built with .
+This project is built with :
 
 - Vite
 - TypeScript
@@ -60,10 +12,10 @@ This project is built with .
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## STEPS FOR INSTALLATION
 
-Simply open [Lovable](https://lovable.dev/projects/90287f2f-a2ff-40e6-897d-0e8f6b71ae07) and click on Share -> Publish.
+1. Clone the Repo: In your terminal, run git clone<PROJECT_URL>
+2. Open the cloned folder in IDE of choice
+3. Using the terminal(integrated or external), navigate to the folder location and run 'npm install' or 'npm i'
+4. To start up the development(dev) server, run 'npm run dev' in terminal, open browser in navigate to localhost:8080
 
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
