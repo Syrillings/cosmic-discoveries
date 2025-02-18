@@ -1,6 +1,7 @@
 
 import Navigation from "../components/Navigation";
 import LiveTicker from "../components/LiveTicker";
+import { Star } from "lucide-react";
 
 const Index = () => {
   return (
@@ -9,7 +10,14 @@ const Index = () => {
       
       {/* Hero Section */}
       <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-cosmic-muted via-cosmic to-cosmic"></div>
+        <div className="absolute inset-0">
+          <img 
+            src="https://images.unsplash.com/photo-1470813740244-df37b8c1edcb"
+            alt="Starry Night Sky"
+            className="w-full h-full object-cover opacity-30"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-cosmic-muted/50 via-cosmic to-cosmic"></div>
+        </div>
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4 animate-fade-up">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
             Explore the Cosmos
@@ -26,23 +34,77 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Categories Section Placeholder */}
+      {/* Categories Section */}
       <section id="categories" className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
             Cosmic Categories
           </h2>
-          {/* Content will be added in subsequent updates */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              {
+                title: "Big Bang Theory",
+                description: "Explore the origins of our universe",
+                image: "https://images.unsplash.com/photo-1501854140801-50d01698950b"
+              },
+              {
+                title: "Evolution of Earth",
+                description: "Journey through Earth's history",
+                image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb"
+              },
+              {
+                title: "Latest Discoveries",
+                description: "Recent breakthroughs in astronomy",
+                image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05"
+              }
+            ].map((category, index) => (
+              <div key={index} className="group relative overflow-hidden rounded-lg shadow-xl transition-transform hover:scale-105">
+                <div className="absolute inset-0">
+                  <img 
+                    src={category.image}
+                    alt={category.title}
+                    className="w-full h-full object-cover transition-transform group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-cosmic via-cosmic/80 to-transparent"></div>
+                </div>
+                <div className="relative p-6 h-full min-h-[300px] flex flex-col justify-end">
+                  <h3 className="text-xl font-semibold mb-2">{category.title}</h3>
+                  <p className="text-gray-300">{category.description}</p>
+                  <Star className="absolute top-4 right-4 w-6 h-6 text-cosmic-gold opacity-0 group-hover:opacity-100 transition-opacity" />
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
-      {/* Planets Section Placeholder */}
+      {/* Planets Section */}
       <section id="planets" className="py-20 bg-cosmic-muted">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
             Solar System
           </h2>
-          {/* Content will be added in subsequent updates */}
+          <div className="relative">
+            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-cosmic-accent/20 via-transparent to-transparent"></div>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+              {[
+                "Mercury", "Venus", "Earth", "Mars",
+                "Jupiter", "Saturn", "Uranus", "Neptune"
+              ].map((planet, index) => (
+                <div 
+                  key={planet}
+                  className="group relative overflow-hidden rounded-full aspect-square bg-cosmic-muted border border-white/10 hover:border-cosmic-accent transition-colors"
+                >
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <span className="text-lg font-medium opacity-0 group-hover:opacity-100 transition-opacity">
+                      {planet}
+                    </span>
+                  </div>
+                  <div className="absolute inset-0 bg-gradient-to-tr from-cosmic-accent/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </section>
 
