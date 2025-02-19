@@ -7,40 +7,22 @@ import { Link } from "react-router-dom";
 const Categories = () => {
   const categories = [
     {
-      title: "Solar System",
-      description: "Explore our cosmic neighborhood, from the Sun to the Kuiper Belt",
-      image: "https://science.nasa.gov/wp-content/uploads/2023/09/solar-system.jpg",
-      link: "/planets"
+      title: "Big Bang Theory",
+      description: "Explore the origins of our universe",
+      image: "https://images.unsplash.com/photo-1501854140801-50d01698950b",
+      link: "/categories/big-bang"
     },
     {
-      title: "Stars & Galaxies",
-      description: "Discover the brilliant stellar objects and vast galactic structures",
-      image: "https://science.nasa.gov/wp-content/uploads/2023/09/galaxy.jpg",
-      link: "/categories/stars"
+      title: "Evolution of Earth",
+      description: "Journey through Earth's history",
+      image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb",
+      link: "/categories/earth"
     },
     {
-      title: "Space Exploration",
-      description: "Journey through human achievements in space exploration",
-      image: "https://science.nasa.gov/wp-content/uploads/2023/09/exploration.jpg",
-      link: "/categories/exploration"
-    },
-    {
-      title: "Celestial Events",
-      description: "Track astronomical phenomena and upcoming cosmic events",
-      image: "https://science.nasa.gov/wp-content/uploads/2023/09/events.jpg",
-      link: "/categories/events"
-    },
-    {
-      title: "Black Holes",
-      description: "Venture into the most mysterious objects in the universe",
-      image: "https://science.nasa.gov/wp-content/uploads/2023/09/black-hole.jpg",
-      link: "/categories/black-holes"
-    },
-    {
-      title: "Comets & Asteroids",
-      description: "Learn about the small but significant bodies in our solar system",
-      image: "https://science.nasa.gov/wp-content/uploads/2023/09/comet.jpg",
-      link: "/comets"
+      title: "Latest Discoveries",
+      description: "Recent breakthroughs in astronomy",
+      image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05",
+      link: "/categories/discoveries"
     }
   ];
 
