@@ -2,6 +2,7 @@
 import Navigation from "../components/Navigation";
 import LiveTicker from "../components/LiveTicker";
 import { Star } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -45,7 +46,7 @@ const Index = () => {
               {
                 title: "Big Bang Theory",
                 description: "Explore the origins of our universe",
-                image: "https://images.unsplash.com/photo-1501854140801-50d01698950b"
+                image: "/src/assets/Space.jpg"
               },
               {
                 title: "Evolution of Earth",
@@ -68,8 +69,8 @@ const Index = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-cosmic via-cosmic/80 to-transparent"></div>
                 </div>
                 <div className="relative p-6 h-full min-h-[300px] flex flex-col justify-end">
-                  <h3 className="text-xl font-semibold mb-2">{category.title}</h3>
-                  <p className="text-gray-300">{category.description}</p>
+                  <Link to ="/categories"><h3 className="text-xl font-semibold mb-2">{category.title}</h3></Link>
+                  <Link to = "/categories"><p className="text-gray-300">{category.description}</p></Link>
                   <Star className="absolute top-4 right-4 w-6 h-6 text-cosmic-gold opacity-0 group-hover:opacity-100 transition-opacity" />
                 </div>
               </div>
@@ -94,7 +95,7 @@ const Index = () => {
                 },
                 {
                   name: "Venus",
-                  image: "/src/assets/Venus.jfif"
+                  image: "/src/assets/Venus.jpg"
                 },
                 {
                   name: "Earth",
@@ -122,7 +123,7 @@ const Index = () => {
                 },
                 {
                   name: "Pluto",
-                  image: "/src/assets/Pluto.jfif"
+                  image: "/src/assets/Pluto.jpg"
                 }
               ].map((planet) => (
                 <div 
@@ -132,7 +133,10 @@ const Index = () => {
                   <img 
                     src={planet.image}
                     alt={planet.name}
-                    className="w-[3/4] h-full object-cover"
+                    className={`object-cover transition-transform group-hover:scale-110 cursor-pointer ${
+                      planet.name === "Venus" ? "w-[1/2] h-full object-cover" : "w-[3/4] h-full object-cover"
+                    }`}
+                   
                   />
                   <div className="absolute inset-0 bg-gradient-to-tr from-cosmic-accent/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                     <span className="text-lg font-medium bg-cosmic/80 px-4 py-2 rounded-full">
