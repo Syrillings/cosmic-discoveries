@@ -1,7 +1,7 @@
-
 import Navigation from "../components/Navigation";
 import LiveTicker from "../components/LiveTicker";
 import { Building, MapPin, Mountain, Telescope } from "lucide-react";
+import ObservatoriesMap from "../components/ObservatoriesMap";
 
 const Observatories = () => {
   const observatories = [
@@ -11,7 +11,8 @@ const Observatories = () => {
       description: "Home to the world's largest optical telescope, situated at 4,205 meters above sea level.",
       image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625",
       elevation: "4,205m",
-      specialization: "Optical and Infrared Astronomy"
+      specialization: "Optical and Infrared Astronomy",
+      coordinates: [-155.4681, 19.8968] // [longitude, latitude]
     },
     {
       name: "Very Large Array (VLA)",
@@ -19,7 +20,8 @@ const Observatories = () => {
       description: "One of the world's premier radio astronomy observatories, consisting of 27 radio antennas.",
       image: "https://images.unsplash.com/photo-1496307653780-42ee777d4833",
       elevation: "2,124m",
-      specialization: "Radio Astronomy"
+      specialization: "Radio Astronomy",
+      coordinates: [-107.6184, 34.0784]
     },
     {
       name: "European Southern Observatory",
@@ -27,7 +29,8 @@ const Observatories = () => {
       description: "The world's most productive ground-based astronomical facility, located in the driest desert.",
       image: "https://images.unsplash.com/photo-1431576901776-e539bd916ba2",
       elevation: "2,635m",
-      specialization: "Multi-wavelength Astronomy"
+      specialization: "Multi-wavelength Astronomy",
+      coordinates: [-70.4040, -24.6275]
     },
     {
       name: "Paranal Observatory",
@@ -35,7 +38,8 @@ const Observatories = () => {
       description: "Home to the Very Large Telescope (VLT), the world's most advanced optical instrument.",
       image: "https://images.unsplash.com/photo-1492321936769-b49830bc1d1e",
       elevation: "2,635m",
-      specialization: "Optical and Infrared Astronomy"
+      specialization: "Optical and Infrared Astronomy",
+      coordinates: [-70.4048, -24.6271]
     }
   ];
 
@@ -63,6 +67,19 @@ const Observatories = () => {
             </p>
           </div>
         </div>
+      </div>
+
+      {/* Map Section */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <h2 className="text-3xl font-bold mb-8 text-center">Observatory Locations</h2>
+        <ObservatoriesMap 
+          observatories={observatories.map(obs => ({
+            name: obs.name,
+            location: obs.location,
+            coordinates: obs.coordinates,
+            description: obs.description
+          }))} 
+        />
       </div>
 
       {/* Observatories Grid */}
