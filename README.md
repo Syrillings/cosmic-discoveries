@@ -1,6 +1,6 @@
 ## Cosmic Discoveries
 
-This is an educational website that aims to familiarize people with the  astronomy and the wonders of the universe ranging from the mysteries the Earth harbors to the wonders beyond our atmosphere. Jin us on our interstellar oddysey.
+This is an educational website that aims to familiarize people with the  astronomy and the wonders of the universe ranging from the mysteries the Earth harbors to the wonders beyond our atmosphere. Join us on our interstellar odyssey.
 
 ## What technologies are used for this project?
 
