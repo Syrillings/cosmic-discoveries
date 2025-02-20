@@ -2,6 +2,7 @@
 import Navigation from "../components/Navigation";
 import LiveTicker from "../components/LiveTicker";
 import { Star } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -89,43 +90,43 @@ const Index = () => {
             <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
               {[
                 {
-                  name: "Mercury",
+                  name: "mercury",
                   image: "/src/assets/Mercury.jpg"
                 },
                 {
-                  name: "Venus",
+                  name: "venus",
                   image: "/src/assets/Venus.jfif"
                 },
                 {
-                  name: "Earth",
+                  name: "earth",
                   image: "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4"
                 },
                 {
-                  name: "Mars",
+                  name: "mars",
                  image: "/src/assets/mars.jpg"
                 },
                 {
-                  name: "Jupiter",
+                  name: "jupiter",
                   image: "/src/assets/Jupiter2.webp"
                 },
                 {
-                  name: "Saturn",
+                  name: "saturn",
                   image: "https://images.unsplash.com/photo-1614732414444-096e5f1122d5"
                 },
                 {
-                  name: "Uranus",
+                  name: "uranus",
                   image: "https://images.unsplash.com/photo-1614732484003-ef9881555dc3"
                 },
                 {
-                  name: "Neptune",
+                  name: "neptune",
                   image: "https://images.unsplash.com/photo-1614313913007-2b4ae8ce32d6"
                 },
                 {
-                  name: "Pluto",
+                  name: "pluto",
                   image: "/src/assets/Pluto.jfif"
                 }
               ].map((planet) => (
-                <div 
+                <Link to={`/planets/${planet.name}`}
                   key={planet.name}
                   className="group relative overflow-hidden rounded-full aspect-square bg-cosmic-muted border border-white/10 hover:border-cosmic-accent transition-all hover:scale-105"
                 >
@@ -135,11 +136,11 @@ const Index = () => {
                     className="w-[3/4] h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-tr from-cosmic-accent/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                    <span className="text-lg font-medium bg-cosmic/80 px-4 py-2 rounded-full">
+                    <span className="text-lg font-medium bg-cosmic/80 px-4 py-2 rounded-full capitalize">
                       {planet.name}
                     </span>
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
           </div>
