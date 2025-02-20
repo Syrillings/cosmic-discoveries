@@ -10,7 +10,7 @@ const Constellations = () => {
       bestViewing: "Spring",
       mainStars: 7,
       description: "Also known as the Great Bear, contains the Big Dipper asterism.",
-      image: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb"
+      image: "/src/assets/ursa.jpg"
     },
     {
       name: "Orion",
@@ -18,7 +18,7 @@ const Constellations = () => {
       bestViewing: "Winter",
       mainStars: 7,
       description: "One of the most recognizable constellations, representing a hunter.",
-      image: "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a"
+      image: "/src/assets/orion.jpg"
     },
     {
       name: "Scorpius",
@@ -26,7 +26,7 @@ const Constellations = () => {
       bestViewing: "Summer",
       mainStars: 7,
       description: "Represents a scorpion, contains the bright star Antares.",
-      image: "https://images.unsplash.com/photo-1465101162946-4377e57745c3"
+      image: "/src/assets/scorpius.jfif"
     },
     {
       name: "Cassiopeia",
@@ -34,7 +34,7 @@ const Constellations = () => {
       bestViewing: "Autumn",
       mainStars: 5,
       description: "Resembles a W shape, representing a queen from Greek mythology.",
-      image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"
+      image: "/src/assets/cassi.jfif"
     },
     {
       name: "Lyra",
@@ -42,7 +42,7 @@ const Constellations = () => {
       bestViewing: "Summer",
       mainStars: 5,
       description: "Contains the bright star Vega, representing a lyre.",
-      image: "https://images.unsplash.com/photo-1496614932623-0a3a9748155c"
+      image: "/src/assets/lyra.jfif"
     },
     {
       name: "Cygnus",
@@ -50,7 +50,7 @@ const Constellations = () => {
       bestViewing: "Summer",
       mainStars: 9,
       description: "Known as the Swan, features the Northern Cross asterism.",
-      image: "https://images.unsplash.com/photo-1498579397066-df84acdbd2d3"
+      image: "/src/assets/gygnus.jfif"
     },
     {
       name: "Leo",
@@ -58,7 +58,7 @@ const Constellations = () => {
       bestViewing: "Spring",
       mainStars: 9,
       description: "Represents a lion, contains the bright star Regulus.",
-      image: "https://images.unsplash.com/photo-1519608487953-e999c86e7455"
+      image: "/src/assets/leo.jfif"
     },
     {
       name: "Taurus",
@@ -66,7 +66,7 @@ const Constellations = () => {
       bestViewing: "Winter",
       mainStars: 9,
       description: "Represents a bull, contains the Pleiades star cluster and Aldebaran.",
-      image: "https://images.unsplash.com/photo-1504198453319-5ce911bafcde"
+      image: "/src/assets/taurus.jfif"
     },
     {
       name: "Andromeda",
@@ -74,7 +74,7 @@ const Constellations = () => {
       bestViewing: "Autumn",
       mainStars: 7,
       description: "Represents a princess, home to the Andromeda Galaxy.",
-      image: "https://images.unsplash.com/photo-1517817748493-49ec54a27531"
+      image: "/src/assets/and.jfif"
     }
   ];
   
@@ -94,7 +94,7 @@ const Constellations = () => {
               key={constellation.name}
               className="bg-cosmic-muted rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300"
             >
-              <div className="aspect-[16/9] relative">
+              <div className="aspect-[11/9] relative">
                 <img
                   src={constellation.image}
                   alt={constellation.name}

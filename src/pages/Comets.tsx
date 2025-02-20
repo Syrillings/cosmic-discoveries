@@ -9,63 +9,63 @@ const Comets = () => {
       nextAppearance: "July 28, 2061",
       period: "76 years",
       description: "The most famous periodic comet, visible to the naked eye.",
-      image: "https://images.unsplash.com/photo-1506318137071-a8e063b4bec0"
+      image: "/src/assets/halley.jfif"
     },
     {
       name: "NEOWISE",
       nextAppearance: "~8786",
       period: "6,800 years",
       description: "One of the brightest comets visible from Earth in 2020.",
-      image: "https://images.unsplash.com/photo-1595947425698-525d0a1fbb8d"
+      image: "/src/assets/neowise.jfif"
     },
     {
       name: "ATLAS",
       nextAppearance: "2024",
       period: "Varies",
       description: "A periodic comet discovered by the ATLAS survey.",
-      image: "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a"
+      image: "/src/assets/atlas.jfif"
     },
     {
       name: "Encke's Comet",
       nextAppearance: "2028",
       period: "3.3 years",
       description: "A short-period comet with the shortest known orbital period.",
-      image: "https://images.unsplash.com/photo-1517816428104-797678c7cf9a"
+      image: "/src/assets/encke.jfif"
     },
     {
       name: "Comet 67P/Churyumov–Gerasimenko",
       nextAppearance: "2028",
       period: "6.45 years",
       description: "Famous for being the target of the Rosetta spacecraft mission.",
-      image: "https://images.unsplash.com/photo-1479009308617-3d8caccba94a"
+      image: "/src/assets/cheryon.jfif"
     },
     {
       name: "Comet Leonard (C/2021 A1)",
       nextAppearance: "Won't return",
       period: "Once-off",
       description: "A bright comet that became visible to the naked eye in 2021.",
-      image: "https://images.unsplash.com/photo-1531306728370-e2ebd9d7bbba"
+      image: "/src/assets/leonard.jfif"
     },
     {
       name: "Comet PANSTARRS (C/2011 L4)",
       nextAppearance: "Next millennia",
       period: "106,000 years",
       description: "A non-periodic comet that was visible in 2013.",
-      image: "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3"
+      image: "/src/assets/pan.jfif"
     },
     {
       name: "Comet Swift-Tuttle",
       nextAppearance: "2126",
       period: "133 years",
       description: "The parent body of the Perseid meteor shower.",
-      image: "https://images.unsplash.com/photo-1543951220-8df9cdebc7f7"
+      image: "/src/assets/swift.jfif"
     },
     {
       name: "Comet Hale-Bopp",
       nextAppearance: "4385",
       period: "2,533 years",
       description: "One of the brightest comets of the 20th century, visible for over a year.",
-      image: "https://images.unsplash.com/photo-1487621167305-5d248087c724"
+      image: "/src/assets/bopp.jfif"
     }
   ];
 

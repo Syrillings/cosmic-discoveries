@@ -63,9 +63,7 @@ const News = () => {
                   <p className="text-gray-300 text-lg leading-relaxed">
                     {article.content}
                   </p>
-                  <button className="mt-6 bg-cosmic-accent hover:bg-cosmic-accent/90 text-white px-6 py-2 rounded-full transition-colors duration-300">
-                    Read More
-                  </button>
+                  
                 </div>
               </div>
             </article>
