@@ -17,7 +17,7 @@ const Index = () => {
             alt="Starry Night Sky"
             className="w-full h-full object-cover opacity-30"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-cosmic-muted/50 via-cosmic to-cosmic"></div>
+          <div ></div>
         </div>
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4 animate-fade-up">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
