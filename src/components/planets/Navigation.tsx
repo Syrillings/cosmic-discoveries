@@ -17,7 +17,7 @@ const Navigation = ({page}) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             const rect = entry.target.getBoundingClientRect();
-            const distance = Math.abs(rect.top); // Distance from top of viewport
+            const distance = Math.abs(rect.top);
 
             if (distance < minDistance) {
               minDistance = distance;
@@ -30,7 +30,7 @@ const Navigation = ({page}) => {
           setActiveSection(closestSection);
         }
       },
-      { rootMargin: "-160px 0px 80px 0px", threshold: 0.1 } // Adjust margins for better detection
+      { rootMargin: "-160px 0px 80px 0px", threshold: 0.1 } 
     );
 
     sections.forEach((section) => observer.observe(section));

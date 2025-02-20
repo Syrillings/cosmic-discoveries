@@ -12,6 +12,7 @@ import Contact from "./pages/Contact";
 import News from "./pages/News";
 import NotFound from "./pages/NotFound";
 import PlanetDetail from "./pages/PlanetDetail";
+import About from "./pages/About"
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Route path="/comets" element={<Comets />} />
       <Route path="/news" element={<News />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/about" element={<Contact />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );
