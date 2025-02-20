@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
@@ -15,6 +16,7 @@ const Navigation = () => {
     { name: "Observatories", to: "/observatories" },
     { name: "Books", to: "/Books" },
     { name: "Videos", to: "/Videos" },
+    { name: "News", to: "/news" },
     { name: "Contact", to: "/contact" },
   ];
 
@@ -55,7 +57,6 @@ const Navigation = () => {
         </div>
       </div>
 
-     
       {isOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-cosmic-muted">
