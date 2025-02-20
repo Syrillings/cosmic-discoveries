@@ -1,3 +1,4 @@
+
 import Navigation from "../components/Navigation";
 import LiveTicker from "../components/LiveTicker";
 import { Building, MapPin, Mountain, Telescope } from "lucide-react";
@@ -12,7 +13,7 @@ const Observatories = () => {
       image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625",
       elevation: "4,205m",
       specialization: "Optical and Infrared Astronomy",
-      coordinates: [-155.4681, 19.8968] // [longitude, latitude]
+      coordinates: [-155.4681, 19.8968] as [number, number] // explicitly typed as tuple
     },
     {
       name: "Very Large Array (VLA)",
@@ -21,7 +22,7 @@ const Observatories = () => {
       image: "https://images.unsplash.com/photo-1496307653780-42ee777d4833",
       elevation: "2,124m",
       specialization: "Radio Astronomy",
-      coordinates: [-107.6184, 34.0784]
+      coordinates: [-107.6184, 34.0784] as [number, number]
     },
     {
       name: "European Southern Observatory",
@@ -30,7 +31,7 @@ const Observatories = () => {
       image: "https://images.unsplash.com/photo-1431576901776-e539bd916ba2",
       elevation: "2,635m",
       specialization: "Multi-wavelength Astronomy",
-      coordinates: [-70.4040, -24.6275]
+      coordinates: [-70.4040, -24.6275] as [number, number]
     },
     {
       name: "Paranal Observatory",
@@ -39,7 +40,7 @@ const Observatories = () => {
       image: "https://images.unsplash.com/photo-1492321936769-b49830bc1d1e",
       elevation: "2,635m",
       specialization: "Optical and Infrared Astronomy",
-      coordinates: [-70.4048, -24.6271]
+      coordinates: [-70.4048, -24.6271] as [number, number]
     }
   ];
 
