@@ -10,6 +10,7 @@ import Constellations from "./pages/Constellations";
 import Observatories from "./pages/Observatories";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import PlanetDetail from "./pages/PlanetDetail";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route path="/" element={<Index />} />
       <Route path="/categories" element={<Categories />} />
       <Route path="/planets" element={<Planets />} />
+      <Route path="/planets/:planetName" element={<PlanetDetail />} />
       <Route path="/constellations" element={<Constellations />} />
       <Route path="/observatories" element={<Observatories />} />
       <Route path="/books" element={<Books />} />
