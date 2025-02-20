@@ -3,6 +3,8 @@ import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import { Icon, LatLngExpression } from 'leaflet';
+import { MapContainerProps } from 'react-leaflet/lib/MapContainer';
+import { MarkerProps } from 'react-leaflet/lib/Marker';
 
 // Fix for default marker icon
 import icon from 'leaflet/dist/images/marker-icon.png';
@@ -40,10 +42,10 @@ const ObservatoriesMap = ({ observatories }: ObservatoriesMapProps) => {
         backgroundColor: '#242f3e'
       }}
       scrollWheelZoom={false}
+      children={[]} // Add empty children prop to satisfy TypeScript
     >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       />
       {observatories.map((observatory) => {
         const position: LatLngExpression = [observatory.coordinates[1], observatory.coordinates[0]];
@@ -51,7 +53,6 @@ const ObservatoriesMap = ({ observatories }: ObservatoriesMapProps) => {
           <Marker
             key={observatory.name}
             position={position}
-            icon={DefaultIcon}
           >
             <Popup>
               <div className="p-2">
