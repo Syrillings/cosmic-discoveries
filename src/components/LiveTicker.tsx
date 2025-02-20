@@ -1,7 +1,5 @@
 
 import { useEffect, useState } from "react";
-import Counter from "./VisitorCount"
-
 const LiveTicker = () => {
   const [currentTime, setCurrentTime] = useState(new Date());
   const [location, setLocation] = useState<string>("Loading location...");

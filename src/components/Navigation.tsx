@@ -19,8 +19,10 @@ const Navigation = () => {
     { name: "Constellations", to: "/constellations" },
     { name: "Observatories", to: "/observatories" },
     { name: "Resources", to: "/Books" },
-       { name: "Contact", to: "/contact" },
     { name: "News", to: "/news" },
+    { name: "News", to: "/news" },
+    { name: "Contact", to: "/contact" },
+
   ];
 
   return (
@@ -66,7 +68,6 @@ const Navigation = () => {
         </div>
       </div>
 
-     
       {isOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-cosmic-muted">

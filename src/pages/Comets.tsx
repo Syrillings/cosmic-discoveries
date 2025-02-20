@@ -68,7 +68,6 @@ const Comets = () => {
       image: "https://images.unsplash.com/photo-1487621167305-5d248087c724"
     }
   ];
-  
 
   return (
     <div className="min-h-screen bg-cosmic text-cosmic-foreground">

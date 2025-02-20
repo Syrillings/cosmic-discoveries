@@ -78,6 +78,7 @@ const Constellations = () => {
     }
   ];
   
+
   return (
     <div className="min-h-screen bg-cosmic text-cosmic-foreground">
       <Navigation />
