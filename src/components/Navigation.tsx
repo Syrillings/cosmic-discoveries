@@ -1,11 +1,15 @@
-
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
+  const [visitorCount, setVisitorCount] = useState(0);
+  useEffect(() => {
+    setVisitorCount(Math.floor(Math.random() * 1000) + 100);
+  }, []);
+
 
   const menuItems = [
     { name: "Home", to: "/" },
@@ -14,10 +18,10 @@ const Navigation = () => {
     { name: "Comets", to: "/comets" },
     { name: "Constellations", to: "/constellations" },
     { name: "Observatories", to: "/observatories" },
-    { name: "Books", to: "/Books" },
-    { name: "Videos", to: "/Videos" },
+    { name: "Resources", to: "/Books" },
     { name: "News", to: "/news" },
     { name: "Contact", to: "/contact" },
+
   ];
 
   return (
@@ -25,7 +29,7 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-2">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
-            <Link to="/" className="text-2xl font-bold text-white hover:text-cosmic-gold transition-colors">
+            <Link to="/" className="text-2xl font-bold text-white">
               Cosmic Discoveries
             </Link>
           </div>
@@ -43,6 +47,12 @@ const Navigation = () => {
                   {item.name}
                 </Link>
               ))}
+            </div>
+          </div>
+
+          <div className="hidden md:block">
+            <div className="text-white bg-cosmic-accent/20 px-6 py-1 rounded-full">
+              <span className="text-sm">Visitors: {visitorCount}</span>
             </div>
           </div>
 

@@ -1,4 +1,3 @@
-
 import Navigation from "../components/Navigation";
 import LiveTicker from "../components/LiveTicker";
 import { Star, Calendar, MapPin } from "lucide-react";
@@ -11,7 +10,7 @@ const Constellations = () => {
       bestViewing: "Spring",
       mainStars: 7,
       description: "Also known as the Great Bear, contains the Big Dipper asterism.",
-      image: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb"
+      image: "/src/assets/ursa.jpg"
     },
     {
       name: "Orion",
@@ -19,7 +18,7 @@ const Constellations = () => {
       bestViewing: "Winter",
       mainStars: 7,
       description: "One of the most recognizable constellations, representing a hunter.",
-      image: "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a"
+      image: "/src/assets/orion.jpg"
     },
     {
       name: "Scorpius",
@@ -27,9 +26,58 @@ const Constellations = () => {
       bestViewing: "Summer",
       mainStars: 7,
       description: "Represents a scorpion, contains the bright star Antares.",
-      image: "https://images.unsplash.com/photo-1465101162946-4377e57745c3"
+      image: "/src/assets/scorpius.jfif"
+    },
+    {
+      name: "Cassiopeia",
+      type: "Northern",
+      bestViewing: "Autumn",
+      mainStars: 5,
+      description: "Resembles a W shape, representing a queen from Greek mythology.",
+      image: "/src/assets/cassi.jfif"
+    },
+    {
+      name: "Lyra",
+      type: "Northern",
+      bestViewing: "Summer",
+      mainStars: 5,
+      description: "Contains the bright star Vega, representing a lyre.",
+      image: "/src/assets/lyra.jfif"
+    },
+    {
+      name: "Cygnus",
+      type: "Northern",
+      bestViewing: "Summer",
+      mainStars: 9,
+      description: "Known as the Swan, features the Northern Cross asterism.",
+      image: "/src/assets/gygnus.jfif"
+    },
+    {
+      name: "Leo",
+      type: "Zodiacal",
+      bestViewing: "Spring",
+      mainStars: 9,
+      description: "Represents a lion, contains the bright star Regulus.",
+      image: "/src/assets/leo.jfif"
+    },
+    {
+      name: "Taurus",
+      type: "Zodiacal",
+      bestViewing: "Winter",
+      mainStars: 9,
+      description: "Represents a bull, contains the Pleiades star cluster and Aldebaran.",
+      image: "/src/assets/taurus.jfif"
+    },
+    {
+      name: "Andromeda",
+      type: "Northern",
+      bestViewing: "Autumn",
+      mainStars: 7,
+      description: "Represents a princess, home to the Andromeda Galaxy.",
+      image: "/src/assets/and.jfif"
     }
   ];
+  
 
   return (
     <div className="min-h-screen bg-cosmic text-cosmic-foreground">
@@ -46,7 +94,7 @@ const Constellations = () => {
               key={constellation.name}
               className="bg-cosmic-muted rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300"
             >
-              <div className="aspect-[16/9] relative">
+              <div className="aspect-[11/9] relative">
                 <img
                   src={constellation.image}
                   alt={constellation.name}
