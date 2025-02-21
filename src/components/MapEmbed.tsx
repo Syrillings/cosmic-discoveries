@@ -14,7 +14,7 @@ const MapEmbed = ({ place }) => {
         )}&output=embed`;
       }
     };
-
+//Someone ha to re-write this fr
     initializeMap();
   }, [place]);
 
