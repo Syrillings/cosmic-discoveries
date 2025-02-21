@@ -56,7 +56,7 @@ const Contact = () => {
                 />
               </div>
               <p className="font-semibold text-lg mt-3">Sinen Ernest</p>
-              <p>Founder</p>
+              <p>Lead Dev/Founder</p>
             </div>
             <div>
               <div>
