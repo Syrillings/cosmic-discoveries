@@ -15,7 +15,7 @@ const PlanetCard = ({planet, className, imgClassName, altColor}) => {
         )}>
           <div className="lg:size-40">
             <img
-              src={`/src/assets/images/planets/${planet.image}`}
+              src={`/assets/images/planets/${planet.image}`}
               alt="Mercury"
               className="object-cover"
             />

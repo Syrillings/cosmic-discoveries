@@ -21,7 +21,7 @@ const PlanetDetail = () => {
             <div className="mt-10 flex justify-center">
               <div className="lg:max-w-[700px]">
                 <img
-                  src={`/src/assets/images/planets/${planet.name}/${planet.general?.image}`}
+                  src={`/assets/images/planets/${planet.name}/${planet.general?.image}`}
                   alt={`${planet.name} image`}
                   className="object-cover lg:max-h-[600px]"
                 />
@@ -41,7 +41,7 @@ const PlanetDetail = () => {
             <div className="mt-10 flex justify-center">
               <div className="">
                 <img
-                  src={`/src/assets/images/planets/${planet.name}/${planet?.distance?.image}`}
+                  src={`/assets/images/planets/${planet.name}/${planet?.distance?.image}`}
                   alt={`${planet.name} size comparison`}
                   className="object-cover lg:max-h-[600px]"
                 />
@@ -56,7 +56,7 @@ const PlanetDetail = () => {
             <div className="mt-10 flex justify-center">
               <div className="">
                 <img
-                  src={`/src/assets/images/planets/${planet.name}/${planet?.surface?.image1}`}
+                  src={`/assets/images/planets/${planet.name}/${planet?.surface?.image1}`}
                   alt={`${planet.name} surface`}
                   className="object-cover lg:max-h-[600px]"
                 />
@@ -67,7 +67,7 @@ const PlanetDetail = () => {
               <div className="mt-10 flex justify-center">
                 <div className="">
                   <img
-                    src={`/src/assets/images/planets/${planet.name}/${planet?.surface?.image2}`}
+                    src={`/assets/images/planets/${planet.name}/${planet?.surface?.image2}`}
                     alt={`${planet.name} surface`}
                     className="object-cover lg:max-h-[600px]"
                   />
@@ -81,7 +81,7 @@ const PlanetDetail = () => {
             <div className="mt-10 flex justify-center">
               <div className="">
                 <img
-                  src={`/src/assets/images/planets/${planet.name}/${planet?.atmosphere?.image}`}
+                  src={`/assets/images/planets/${planet.name}/${planet?.atmosphere?.image}`}
                   alt={`${planet.name} atmosphere`}
                   className="object-cover"
                 />
