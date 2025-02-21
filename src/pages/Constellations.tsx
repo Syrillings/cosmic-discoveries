@@ -10,7 +10,7 @@ const Constellations = () => {
       bestViewing: "Spring",
       mainStars: 7,
       description: "Also known as the Great Bear, contains the Big Dipper asterism.",
-      image: "/src/assets/ursa.jpg"
+      image: "/ursa.jpg"
     },
     {
       name: "Orion",
@@ -18,7 +18,7 @@ const Constellations = () => {
       bestViewing: "Winter",
       mainStars: 7,
       description: "One of the most recognizable constellations, representing a hunter.",
-      image: "/src/assets/orion.jpg"
+      image: "/orion.jpg"
     },
     {
       name: "Scorpius",
@@ -26,7 +26,7 @@ const Constellations = () => {
       bestViewing: "Summer",
       mainStars: 7,
       description: "Represents a scorpion, contains the bright star Antares.",
-      image: "/src/assets/scorpius.jfif"
+      image: "/scorpius.jfif"
     },
     {
       name: "Cassiopeia",
@@ -34,7 +34,7 @@ const Constellations = () => {
       bestViewing: "Autumn",
       mainStars: 5,
       description: "Resembles a W shape, representing a queen from Greek mythology.",
-      image: "/src/assets/cassi.jfif"
+      image: "/cassi.jfif"
     },
     {
       name: "Lyra",
@@ -42,7 +42,7 @@ const Constellations = () => {
       bestViewing: "Summer",
       mainStars: 5,
       description: "Contains the bright star Vega, representing a lyre.",
-      image: "/src/assets/lyra.jfif"
+      image: "/lyra.jfif"
     },
     {
       name: "Cygnus",
@@ -50,7 +50,7 @@ const Constellations = () => {
       bestViewing: "Summer",
       mainStars: 9,
       description: "Known as the Swan, features the Northern Cross asterism.",
-      image: "/src/assets/gygnus.jfif"
+      image: "/gygnus.jfif"
     },
     {
       name: "Leo",
@@ -58,7 +58,7 @@ const Constellations = () => {
       bestViewing: "Spring",
       mainStars: 9,
       description: "Represents a lion, contains the bright star Regulus.",
-      image: "/src/assets/leo.jfif"
+      image: "/leo.jfif"
     },
     {
       name: "Taurus",
@@ -66,7 +66,7 @@ const Constellations = () => {
       bestViewing: "Winter",
       mainStars: 9,
       description: "Represents a bull, contains the Pleiades star cluster and Aldebaran.",
-      image: "/src/assets/taurus.jfif"
+      image: "/taurus.jfif"
     },
     {
       name: "Andromeda",
@@ -74,7 +74,7 @@ const Constellations = () => {
       bestViewing: "Autumn",
       mainStars: 7,
       description: "Represents a princess, home to the Andromeda Galaxy.",
-      image: "/src/assets/and.jfif"
+      image: "/and.jfif"
     }
   ];
   

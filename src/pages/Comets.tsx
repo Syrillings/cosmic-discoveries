@@ -9,63 +9,63 @@ const Comets = () => {
       nextAppearance: "July 28, 2061",
       period: "76 years",
       description: "The most famous periodic comet, visible to the naked eye.",
-      image: "/src/assets/halley.jfif"
+      image: "/halley.jfif"
     },
     {
       name: "NEOWISE",
       nextAppearance: "~8786",
       period: "6,800 years",
       description: "One of the brightest comets visible from Earth in 2020.",
-      image: "/src/assets/neowise.jfif"
+      image: "/neowise.jfif"
     },
     {
       name: "ATLAS",
       nextAppearance: "2024",
       period: "Varies",
       description: "A periodic comet discovered by the ATLAS survey.",
-      image: "/src/assets/atlas.jfif"
+      image: "/atlas.jfif"
     },
     {
       name: "Encke's Comet",
       nextAppearance: "2028",
       period: "3.3 years",
       description: "A short-period comet with the shortest known orbital period.",
-      image: "/src/assets/encke.jfif"
+      image: "/encke.jfif"
     },
     {
       name: "Comet 67P/Churyumov–Gerasimenko",
       nextAppearance: "2028",
       period: "6.45 years",
       description: "Famous for being the target of the Rosetta spacecraft mission.",
-      image: "/src/assets/cheryon.jfif"
+      image: "/cheryon.jfif"
     },
     {
       name: "Comet Leonard (C/2021 A1)",
       nextAppearance: "Won't return",
       period: "Once-off",
       description: "A bright comet that became visible to the naked eye in 2021.",
-      image: "/src/assets/leonard.jfif"
+      image: "/leonard.jfif"
     },
     {
       name: "Comet PANSTARRS (C/2011 L4)",
       nextAppearance: "Next millennia",
       period: "106,000 years",
       description: "A non-periodic comet that was visible in 2013.",
-      image: "/src/assets/pan.jfif"
+      image: "/pan.jfif"
     },
     {
       name: "Comet Swift-Tuttle",
       nextAppearance: "2126",
       period: "133 years",
       description: "The parent body of the Perseid meteor shower.",
-      image: "/src/assets/swift.jfif"
+      image: "/swift.jfif"
     },
     {
       name: "Comet Hale-Bopp",
       nextAppearance: "4385",
       period: "2,533 years",
       description: "One of the brightest comets of the 20th century, visible for over a year.",
-      image: "/src/assets/bopp.jfif"
+      image: "/bopp.jfif"
     }
   ];
 
