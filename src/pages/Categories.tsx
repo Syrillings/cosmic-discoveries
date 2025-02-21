@@ -10,7 +10,7 @@ const Categories = () => {
       image: "/bigbang.jpg",
     },
     {
-      title: "Evolution of Earth",
+      title: "Evolution of the Earth",
       description: `Earth's evolution is a complex narrative spanning approximately 4.5 billion years. It began as a molten sphere, gradually cooling to develop a solid crust and primitive oceans through volcanic activity and the condensation of atmospheric water vapor. The early Earth experienced constant bombardment by asteroids and comets, contributing to the formation of its oceans and atmosphere. Around 3.5 billion years ago, the first simple life forms—prokaryotic microorganisms—emerged in the oceans. Over billions of years, biological and geological processes intertwined to shape Earth's surface and atmosphere. Photosynthetic organisms began producing oxygen, leading to the Great Oxidation Event around 2.5 billion years ago, which transformed the atmosphere and allowed more complex life to evolve. The Cambrian Explosion, approximately 541 million years ago, marked the rapid diversification of multicellular life. Plate tectonics continuously reshaped Earth's continents, causing the formation and breakup of supercontinents like Pangaea. Mass extinctions, such as the one that ended the reign of the dinosaurs 66 million years ago, paved the way for mammals and, eventually, humans. Earth's evolution is a story of resilience, adaptation, and constant change, driven by both internal and external forces.`,
       image: "/nature.jpg",
     },
