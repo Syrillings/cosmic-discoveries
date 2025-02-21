@@ -46,7 +46,7 @@ const Index = () => {
               {
                 title: "Big Bang Theory",
                 description: "Explore the origins of our universe",
-                image: "/src/assets/Space.jpg"
+                image: "/Space.jpg"
               },
               {
                 title: "Evolution of Earth",
@@ -91,39 +91,39 @@ const Index = () => {
               {[
                 {
                   name: "mercury",
-                  image: "/src/assets/Mercury.jpg"
+                  image: "/Mercury.jpg"
                 },
                 {
                   name: "venus",
-                  image: "/src/assets/Venus.jpg"
+                  image: "/Venus.jpg"
                 },
                 {
                   name: "earth",
-                  image: "/src/assets/earth.png"
+                  image: "/earth.png"
                 },
                 {
                   name: "mars",
-                 image: "/src/assets/mars.jpg"
+                 image: "/mars.jpg"
                 },
                 {
                   name: "jupiter",
-                  image: "/src/assets/Jupiter2.webp"
+                  image: "/Jupiter2.webp"
                 },
                 {
                   name: "saturn",
-                  image: "/src/assets/saturn.png"
+                  image: "/saturn.png"
                 },
                 {
                   name: "uranus",
-                  image: "/src/assets/uranus.png"
+                  image: "/uranus.png"
                 },
                 {
                   name: "neptune",
-                  image: "/src/assets/neptune.png"
+                  image: "/neptune.png"
                 },
                 {
                   name: "pluto",
-                  image: "/src/assets/Pluto.jpg"
+                  image: "/Pluto.jpg"
                 }
               ].map((planet) => (
                 <Link to={`/planets/${planet.name}`}

@@ -7,17 +7,17 @@ const Categories = () => {
     {
       title: "Big Bang Theory",
       description: `The Big Bang Theory is the leading explanation for the origin and evolution of our universe. It posits that approximately 13.8 billion years ago, the universe began from an extremely hot and dense singularity—a point where all matter and energy were concentrated. This singularity rapidly expanded in an event known as the Big Bang, giving rise to space, time, and matter. As the universe expanded, it cooled, allowing subatomic particles to form atoms. Hydrogen and helium were the primary elements created, eventually coalescing into stars and galaxies under the influence of gravity. The theory is supported by multiple lines of evidence, including the detection of cosmic microwave background radiation, which is the afterglow of the initial explosion, and the observation that galaxies are moving away from each other, indicating the ongoing expansion of the universe. The Big Bang Theory revolutionized our understanding of the cosmos, providing a framework for understanding the large-scale structure and evolution of the universe over billions of years.`,
-      image: "/src/assets/bigbang.jpg",
+      image: "/bigbang.jpg",
     },
     {
       title: "Evolution of Earth",
       description: `Earth's evolution is a complex narrative spanning approximately 4.5 billion years. It began as a molten sphere, gradually cooling to develop a solid crust and primitive oceans through volcanic activity and the condensation of atmospheric water vapor. The early Earth experienced constant bombardment by asteroids and comets, contributing to the formation of its oceans and atmosphere. Around 3.5 billion years ago, the first simple life forms—prokaryotic microorganisms—emerged in the oceans. Over billions of years, biological and geological processes intertwined to shape Earth's surface and atmosphere. Photosynthetic organisms began producing oxygen, leading to the Great Oxidation Event around 2.5 billion years ago, which transformed the atmosphere and allowed more complex life to evolve. The Cambrian Explosion, approximately 541 million years ago, marked the rapid diversification of multicellular life. Plate tectonics continuously reshaped Earth's continents, causing the formation and breakup of supercontinents like Pangaea. Mass extinctions, such as the one that ended the reign of the dinosaurs 66 million years ago, paved the way for mammals and, eventually, humans. Earth's evolution is a story of resilience, adaptation, and constant change, driven by both internal and external forces.`,
-      image: "/src/assets/nature.jpg",
+      image: "/nature.jpg",
     },
     {
       title: "Latest Discoveries",
       description: `The field of astronomy is advancing at an unprecedented pace, with recent discoveries reshaping our understanding of the universe. One of the most groundbreaking achievements was the detection of gravitational waves in 2015, confirming a century-old prediction made by Albert Einstein in his General Theory of Relativity. These ripples in spacetime, produced by cataclysmic cosmic events like merging black holes, have opened a new window into observing the universe. In 2019, the Event Horizon Telescope captured the first-ever image of a black hole in the M87 galaxy, providing direct visual evidence of these mysterious objects. Additionally, the discovery of thousands of exoplanets—planets orbiting stars beyond our solar system—has revolutionized our search for habitable worlds. Some of these planets reside in the habitable zone, where conditions could support liquid water and potentially life. Space telescopes like Hubble and James Webb continue to unveil breathtaking images and data, revealing distant galaxies, nebulae, and the earliest light from the universe's infancy. These discoveries not only expand our cosmic perspective but also inspire new questions about the nature of dark matter, dark energy, and the possibility of extraterrestrial life.`,
-      image: "src/assets/Space.jpg",
+      image: "/Space.jpg",
     },
   ];
 
