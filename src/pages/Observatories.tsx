@@ -35,7 +35,7 @@ const Observatories = () => {
       name: "Paranal Observatory",
       location: "Cerro Paranal, Chile",
       description: "Home to the Very Large Telescope (VLT), the world's most advanced optical instrument.",
-      image: "/src/assets/paranal.jfif",
+      image: "https://images.unsplash.com/photo-1492321936769-b49830bc1d1e",
       elevation: "2,635m",
       specialization: "Optical and Infrared Astronomy"
     }

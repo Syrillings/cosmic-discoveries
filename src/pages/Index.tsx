@@ -46,7 +46,7 @@ const Index = () => {
               {
                 title: "Big Bang Theory",
                 description: "Explore the origins of our universe",
-                image: "/src/assets/Space.jpg"
+                image: "/Space.jpg"
               },
               {
                 title: "Evolution of Earth",
@@ -91,39 +91,39 @@ const Index = () => {
               {[
                 {
                   name: "Mercury",
-                  image: "/src/assets/Mercury.jpg"
+                  image: "/Mercury.jpg"
                 },
                 {
                   name: "Venus",
-                  image: "/src/assets/Venus.jpg"
+                  image: "/Venus.jpg"
                 },
                 {
                   name: "Earth",
-                  image: "/src/assets/earth.png"
+                  image: "/earth.png"
                 },
                 {
                   name: "Mars",
-                 image: "/src/assets/mars.jpg"
+                 image: "/mars.jpg"
                 },
                 {
                   name: "Jupiter",
-                  image: "/src/assets/Jupiter2.webp"
+                  image: "/Jupiter2.webp"
                 },
                 {
                   name: "Saturn",
-                  image: "/src/assets/saturn.png"
+                  image: "/saturn.png"
                 },
                 {
                   name: "Uranus",
-                  image: "/src/assets/uranus.png"
+                  image: "/uranus.png"
                 },
                 {
                   name: "Neptune",
-                  image: "/src/assets/neptune.png"
+                  image: "/neptune.png"
                 },
                 {
                   name: "Pluto",
-                  image: "/src/assets/Pluto.jpg"
+                  image: "/Pluto.jpg"
                 }
               ].map((planet) => (
                 <div 
