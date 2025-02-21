@@ -11,6 +11,8 @@ import Observatories from "./pages/Observatories";
 import Contact from "./pages/Contact";
 import News from "./pages/News";
 import NotFound from "./pages/NotFound";
+import PlanetDetail from "./pages/PlanetDetail";
+import About from "./pages/About"
 
 function App() {
   return (
@@ -18,12 +20,14 @@ function App() {
       <Route path="/" element={<Index />} />
       <Route path="/categories" element={<Categories />} />
       <Route path="/planets" element={<Planets />} />
+      <Route path="/planets/:planetName" element={<PlanetDetail />} />
       <Route path="/constellations" element={<Constellations />} />
       <Route path="/observatories" element={<Observatories />} />
       <Route path="/resources" element={<Resources />} />
       <Route path="/comets" element={<Comets />} />
       <Route path="/news" element={<News />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/about" element={<Contact />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );
