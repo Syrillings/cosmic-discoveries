@@ -11,7 +11,7 @@ const Contact = () => {
         <div className="lg:mt-10 grid gap-4 lg:grid-cols-2">
           <div>
             <img
-              src="/src/assets/images/celestials_1.jpg"
+              src="/assets/images/celestials_1.jpg"
               alt="celestials"
               className="object-cover rounded-2xl"
             />
@@ -50,34 +50,34 @@ const Contact = () => {
             <div>
               <div>
                 <img
-                  src="/src/assets/images/founders/founder_1.jpg"
+                  src="/assets/images/founders/founder_1.jpg"
                   alt="celestials"
                   className="object-cover rounded-2xl h-[300px] w-full"
                 />
               </div>
-              <p className="font-semibold text-lg mt-3">John doe</p>
+              <p className="font-semibold text-lg mt-3">Sinen Ernest</p>
               <p>Founder</p>
             </div>
             <div>
               <div>
                 <img
-                  src="/src/assets/images/founders/founder_2.jpg"
+                  src="/assets/images/founders/founder_2.jpg"
                   alt="celestials"
                   className="object-cover rounded-2xl h-[300px] w-full"
                 />
               </div>
-              <p className="font-semibold text-lg mt-3">James Bond</p>
+              <p className="font-semibold text-lg mt-3">Uwem Etukudo</p>
               <p>Co Founder</p>
             </div>
             <div>
               <div>
                 <img
-                  src="/src/assets/images/founders/founder_3.jpg"
+                  src="/assets/images/founders/founder_3.jpg"
                   alt="celestials"
                   className="object-cover rounded-2xl h-[300px] w-full"
                 />
               </div>
-              <p className="font-semibold text-lg mt-3">Jack Ryan</p>
+              <p className="font-semibold text-lg mt-3">Maduka Johnpeter</p>
               <p>Co Founder</p>
             </div>
           </div>
@@ -88,7 +88,7 @@ const Contact = () => {
           </h2>
           <div className="mt-10 grid lg:grid-cols-3 gap-5">
             <div className="lg:col-span-2 rounded-2xl overflow-hidden h-[500px] max-lg:order-2">
-            <MapEmbed place={`Aptech 164, Ikot Ekpene Road, Uyo`} />
+            <MapEmbed place={`164, Aptech Ikot Ekpene Road, Uyo`} />
             </div>
             <div className="h-max lg:col-span-1 border rounded-2xl w-full p-5 flex flex-col gap-5 max-lg:order-1">
               <div className="bg-white/5 p-4 rounded-xl flex items-center gap-4">
