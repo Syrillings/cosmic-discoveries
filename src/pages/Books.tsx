@@ -26,48 +26,48 @@ const Books = () => {
       link: "https://www.goodreads.com/book/show/1718191.The_Grand_Tour",
       image: "/src/assets/grandtour.jfif",
     },
-    // {
-    //   title: "Cosmos",
-    //   author: "Carl Sagan",
-    //   description: "A landmark book that explores the universe and our place within it.",
-    //   link: "https://www.goodreads.com/book/show/55030.Cosmos",
-    //   image: "/src/assets/cosmos.jfif",
-    // },
-    // {
-    //   title: "Astrophysics for People in a Hurry",
-    //   author: "Neil deGrasse Tyson",
-    //   description: "A quick and engaging read on the basics of astrophysics.",
-    //   link: "https://www.goodreads.com/book/show/32191710-astrophysics-for-people-in-a-hurry",
-    //   image: "/src/assets/astrophysics.jfif",
-    // },
-    // {
-    //   title: "A Brief History of Time",
-    //   author: "Stephen Hawking",
-    //   description: "An iconic book on the nature of the universe, black holes, and the theory of everything.",
-    //   link: "https://www.goodreads.com/book/show/3869.A_Brief_History_of_Time",
-    //   image: "/src/assets/briefhistory.jfif",
-    // },
-    // {
-    //   title: "The Elegant Universe",
-    //   author: "Brian Greene",
-    //   description: "An exploration of string theory and the quest for a unified theory of physics.",
-    //   link: "https://www.goodreads.com/book/show/804927.The_Elegant_Universe",
-    //   image: "/src/assets/elegantuniverse.jfif",
-    // },
-    // {
-    //   title: "Black Holes and Time Warps: Einstein's Outrageous Legacy",
-    //   author: "Kip S. Thorne",
-    //   description: "A fascinating dive into black holes, wormholes, and the implications of general relativity.",
-    //   link: "https://www.goodreads.com/book/show/100173.Black_Holes_and_Time_Warps",
-    //   image: "/src/assets/blackholes.jfif",
-    // },
-    // {
-    //   title: "The Fabric of the Cosmos",
-    //   author: "Brian Greene",
-    //   description: "An exploration of space, time, and the nature of the universe.",
-    //   link: "https://www.goodreads.com/book/show/22423.The_Fabric_of_the_Cosmos",
-    //   image: "/src/assets/fabricofcosmos.jfif",
-    // },
+    {
+      title: "Cosmos",
+      author: "Carl Sagan",
+      description: "A landmark book that explores the universe and our place within it.",
+      link: "https://www.goodreads.com/book/show/55030.Cosmos",
+      image: "/src/assets/cosmos.webp",
+    },
+    {
+      title: "Astrophysics for People in a Hurry",
+      author: "Neil deGrasse Tyson",
+      description: "A quick and engaging read on the basics of astrophysics.",
+      link: "https://www.goodreads.com/book/show/32191710-astrophysics-for-people-in-a-hurry",
+      image: "/src/assets/astrophysics.jpg",
+    },
+    {
+      title: "A Brief History of Time",
+      author: "Stephen Hawking",
+      description: "An iconic book on the nature of the universe, black holes, and the theory of everything.",
+      link: "https://www.goodreads.com/book/show/3869.A_Brief_History_of_Time",
+      image: "/src/assets/brief.jpg",
+    },
+    {
+      title: "The Elegant Universe",
+      author: "Brian Greene",
+      description: "An exploration of string theory and the quest for a unified theory of physics.",
+      link: "https://www.goodreads.com/book/show/8049273-the-elegant-universe",
+      image: "/src/assets/elegant.jpg",
+    },
+    {
+      title: "Black Holes and Time Warps: Einstein's Outrageous Legacy",
+      author: "Kip S. Thorne",
+      description: "A fascinating dive into black holes, wormholes, and the implications of general relativity.",
+      link: "https://www.goodreads.com/book/show/17362.Black_Holes_Time_Warps",
+      image: "/src/assets/blackholes.jpg",
+    },
+    {
+      title: "The Fabric of the Cosmos",
+      author: "Brian Greene",
+      description: "An exploration of space, time, and the nature of the universe.",
+      link: "https://www.goodreads.com/book/show/22423.The_Fabric_of_the_Cosmos",
+      image: "/src/assets/cosmos.webp",
+    },
   ];
   
   const videos = [
@@ -132,7 +132,7 @@ const Books = () => {
     <div className="min-h-screen bg-cosmic text-cosmic-foreground">
       <Navigation />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <h1 className="text-4xl font-bold mb-8">Explore Solar System Books</h1>
+        <h1 className="text-4xl font-bold mb-8">Explore Books on Astronomy</h1>
         <p className="mb-12 text-lg text-gray-300">
           Dive into these incredible books to learn more about our solar system and beyond.
         </p>
