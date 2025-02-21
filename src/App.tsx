@@ -20,7 +20,7 @@ function App() {
       <Route path="/planets" element={<Planets />} />
       <Route path="/constellations" element={<Constellations />} />
       <Route path="/observatories" element={<Observatories />} />
-      <Route path="/books" element={<Books />} />
+      <Route path="/resources" element={<Books />} />
       <Route path="/comets" element={<Comets />} />
       <Route path="/news" element={<News />} />
       <Route path="/contact" element={<Contact />} />
