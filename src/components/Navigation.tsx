@@ -18,7 +18,7 @@ const Navigation = () => {
     { name: "Comets", to: "/comets" },
     { name: "Constellations", to: "/constellations" },
     { name: "Observatories", to: "/observatories" },
-    { name: "Resources", to: "/Books" },
+    { name: "Resources", to: "/resources" },
     { name: "News", to: "/news" },
     { name: "Contact", to: "/contact" },
 

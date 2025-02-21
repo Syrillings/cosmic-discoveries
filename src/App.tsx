@@ -4,7 +4,7 @@ import Index from "./pages/Index";
 import Categories from "./pages/Categories";
 import Planets from "./pages/Planets";
 import Comets from "./pages/Comets";
-import Books from "./pages/Books";
+import Resources from "./pages/Books";
 //import Videos from "./pages/Videos";
 import Constellations from "./pages/Constellations";
 import Observatories from "./pages/Observatories";
@@ -20,7 +20,7 @@ function App() {
       <Route path="/planets" element={<Planets />} />
       <Route path="/constellations" element={<Constellations />} />
       <Route path="/observatories" element={<Observatories />} />
-      <Route path="/books" element={<Books />} />
+      <Route path="/resources" element={<Resources />} />
       <Route path="/comets" element={<Comets />} />
       <Route path="/news" element={<News />} />
       <Route path="/contact" element={<Contact />} />
